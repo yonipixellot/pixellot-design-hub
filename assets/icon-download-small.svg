@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="download">
+<mask id="mask0_0_4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+<rect id="Bounding box" width="14" height="14" fill="var(--fill-0, #D9D9D9)"/>
+</mask>
+<g mask="url(#mask0_0_4)">
+<path id="download_2" d="M7 9.20996L4.5096 6.71956L5.12444 6.08694L6.5625 7.525V2.625H7.4375V7.525L8.87556 6.08694L9.4904 6.71956L7 9.20996ZM3.67952 11.375C3.38484 11.375 3.13542 11.2729 2.93125 11.0687C2.72708 10.8646 2.625 10.6152 2.625 10.3205V8.73877H3.5V10.3205C3.5 10.3654 3.51872 10.4065 3.55615 10.4439C3.59348 10.4813 3.6346 10.5 3.67952 10.5H10.3205C10.3654 10.5 10.4065 10.4813 10.4439 10.4439C10.4813 10.4065 10.5 10.3654 10.5 10.3205V8.73877H11.375V10.3205C11.375 10.6152 11.2729 10.8646 11.0687 11.0687C10.8646 11.2729 10.6152 11.375 10.3205 11.375H3.67952Z" fill="var(--fill-0, #1C1B1F)"/>
+</g>
+</g>
+</svg>

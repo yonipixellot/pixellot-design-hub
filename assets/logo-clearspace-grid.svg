@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 106 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Logo Container">
+<rect x="0.25" y="0.25" width="105.5" height="85.5" fill="var(--fill-0, white)"/>
+<rect x="0.25" y="0.25" width="105.5" height="85.5" stroke="var(--stroke-0, black)" stroke-width="0.5"/>
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M77.3005 34.5H66.1508C51.2845 34.5 42.7674 40.1795 40.6381 51.5H76.9134C91.7797 51.5 100.297 45.8205 102.426 34.5L105.601 17.5C107.73 6.17955 101.342 0.5 86.4758 0.5H16.7127L0.762398 85.5C15.6287 85.5 24.1458 79.8205 26.2751 68.5L35.8375 17.5H80.4751C82.3334 17.5 83.069 18.4273 82.7205 20.3205L80.5913 31.6409C80.2428 33.5341 79.1201 34.4614 77.2618 34.4614L77.3005 34.5Z" fill="var(--fill-0, #02131D)" fill-opacity="0.2"/>
+</g>
+</svg>

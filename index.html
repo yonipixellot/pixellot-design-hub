@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixellot - Brand Guidelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle menu"><span></span></button>
+  <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- ===== SIDEBAR ===== -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <img src="assets/logo-pixellot-black.svg" alt="Pixellot">
+    </div>
+    <div class="sidebar-nav">
+      <ol>
+        <li>
+          <a class="nav-link active" data-section="brand-intro" href="#brand-intro">Brand Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" data-section="logo" href="#logo-color-pairing">Logo</a>
+          <div class="nav-sub-items" data-parent="logo">
+            <a class="nav-sub-link" data-section="logo-download" href="#logo-download">Logo <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+            <a class="nav-sub-link" data-section="logo-color-pairing" href="#logo-color-pairing">Logo Color Pairing</a>
+
+            <a class="nav-sub-link" data-section="logo-sizing" href="#logo-sizing">Logo Sizing</a>
+            <a class="nav-sub-link" data-section="logo-misuse" href="#logo-misuse">Logo Misuse</a>
+            <a class="nav-sub-link" data-section="monogram-usage" href="#monogram-usage">Monogram Usage</a>
+            <a class="nav-sub-link" data-section="monogram-download" href="#monogram-download">Monogram <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="color" href="#color-palette">Color</a>
+          <div class="nav-sub-items" data-parent="color">
+            <a class="nav-sub-link" data-section="color-palette" href="#color-palette">Color Palette</a>
+            <a class="nav-sub-link" data-section="color-pairing" href="#color-pairing">Color Pairing</a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="typography" href="#typography-font">Typography</a>
+          <div class="nav-sub-items" data-parent="typography">
+            <a class="nav-sub-link" data-section="typography-font" href="#typography-font">Font <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+            <a class="nav-sub-link" data-section="typography-usage" href="#typography-usage">Typography Usage</a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="photography" href="#photography">Photography</a>
+          <div class="nav-sub-items" data-parent="photography">
+            <a class="nav-sub-link" data-section="photography" href="#photography">Photography <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="letterhead" href="#letterhead">Letterhead</a>
+          <div class="nav-sub-items" data-parent="letterhead">
+            <a class="nav-sub-link" data-section="letterhead" href="#letterhead">Letterhead <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="email-signature" href="#email-signature">Email Signature</a>
+          <div class="nav-sub-items" data-parent="email-signature">
+            <a class="nav-sub-link" data-section="email-signature" href="#email-signature">Email Signature <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" data-section="presentation" href="#presentation">Presentation Template</a>
+          <div class="nav-sub-items" data-parent="presentation">
+            <a class="nav-sub-link" data-section="presentation" href="#presentation">Presentation Template <img class="download-icon" src="assets/icon-download.svg" alt="download"></a>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="sidebar-copyright">
+      Pixellot&copy;&nbsp;&nbsp;&nbsp;<span class="grey-text">Not for distribution</span>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+
+    <!-- Section 1: Brand Introduction -->
+    <section class="section" id="brand-intro" data-nav="brand-intro">
+      <div class="section-header">
+        <h1 class="section-title large">Brand<br>Guidelines</h1>
+        <div class="section-description">
+          <p>This guide defines the visual language, design style, and principles that shape a clear and consistent brand experience, no matter the team or area of expertise.</p>
+          <p>This guide lays out the essential design standards that bring our brand to life and provides downloadable assets, from our color system and typography to accessibility benchmarks and documentation.</p>
+          <p>Whether you're designing for digital platforms or printed materials, these guidelines ensure every touchpoint reflects the trust and efficiency at the heart of Pixellot.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Logo Color Pairing -->
+    <section class="section" id="logo-color-pairing" data-nav="logo-color-pairing" data-parent-nav="logo">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Logo Color Pairing</h2>
+        <div class="section-description">
+          <p>Lockup options. The logo can be in white or black color, while the "O" has to be always in blue or white. See below guide for the background colors.</p>
+        </div>
+      </div>
+      <div class="logo-grid-2x2">
+        <div class="logo-card bg-white-border">
+          <img src="assets/logo-on-white.svg" alt="Pixellot logo on white background">
+        </div>
+        <div class="logo-card bg-black">
+          <img src="assets/logo-on-black.svg" alt="Pixellot logo on black background">
+        </div>
+        <div class="logo-card bg-beige">
+          <img src="assets/logo-on-white.svg" alt="Pixellot logo on beige background">
+        </div>
+        <div class="logo-card bg-cyan">
+          <img src="assets/logo-on-cyan.svg" alt="Pixellot logo on cyan background">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Logo Download -->
+    <section class="section" id="logo-download" data-nav="logo-download" data-parent-nav="logo">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Logo</h2>
+        <div class="section-description">
+          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <div style="margin-top: 22px; display: flex; gap: 16px;">
+            <a class="btn btn-black" href="assets/pixellot-logo-kit.zip" download="pixellot-logo-kit.zip">Download all</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-download-grid">
+        <div class="logo-download-card">
+          <div class="logo-card bg-white-border">
+            <img src="assets/logo-on-white.svg" alt="Black logo">
+          </div>
+          <div class="logo-download-label">
+            <span>Black Logo</span>
+            <div class="download-btn-wrap">
+              <button class="btn btn-black btn-download">Download <span class="arrow-down">&darr;</span><span class="arrow-up">&uarr;</span></button>
+              <div class="dropdown">
+                <a href="assets/downloads/logo-on-white.svg" download="pixellot-logo-black.svg"><strong>SVG</strong></a>
+                <a href="assets/downloads/logo-on-white.png" download="pixellot-logo-black.png">PNG</a>
+                <a href="assets/downloads/logo-on-white.jpg" download="pixellot-logo-black.jpg">JPG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="logo-download-card">
+          <div class="logo-card bg-black">
+            <img src="assets/logo-on-black.svg" alt="White logo">
+          </div>
+          <div class="logo-download-label">
+            <span>White Logo</span>
+            <div class="download-btn-wrap">
+              <button class="btn btn-black btn-download">Download <span class="arrow-down">&darr;</span><span class="arrow-up">&uarr;</span></button>
+              <div class="dropdown">
+                <a href="assets/downloads/logo-on-black.svg" download="pixellot-logo-white.svg"><strong>SVG</strong></a>
+                <a href="assets/downloads/logo-on-black.png" download="pixellot-logo-white.png">PNG</a>
+                <a href="assets/downloads/logo-on-black.jpg" download="pixellot-logo-white.jpg">JPG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Logo Sizing -->
+    <section class="section" id="logo-sizing" data-nav="logo-sizing" data-parent-nav="logo">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Logo Sizing</h2>
+        <div class="section-description">
+          <p>The logo minimum size for legibility is 75px wide, however the preferred size is 150-100px. When we need to go smaller or we have space constriction, use the O monogram instead.</p>
+        </div>
+      </div>
+      <div class="sizing-container">
+        <div class="sizing-row">
+          <div class="sizing-item">
+            <img src="assets/logo-sizing-150.svg" alt="Logo at 150px" style="width:150px; max-width:150px;">
+            <div class="sizing-label">150 px</div>
+          </div>
+          <div class="sizing-item">
+            <img src="assets/logo-sizing-100.svg" alt="Logo at 100px" style="width:100px; max-width:100px;">
+            <div class="sizing-label">100 px</div>
+          </div>
+          <div class="sizing-item">
+            <img src="assets/logo-sizing-75.svg" alt="Logo at 75px" style="width:75px; max-width:75px;">
+            <div class="sizing-label">75 px</div>
+          </div>
+        </div>
+        <div class="sizing-row">
+          <div class="sizing-item">
+            <img src="assets/monogram-blue.svg" alt="Monogram at 50px" style="width:50px; max-width:50px; height:50px;">
+            <div class="sizing-label">50 px</div>
+          </div>
+          <div class="sizing-item">
+            <img src="assets/monogram-blue.svg" alt="Monogram at 25px" style="width:25px; max-width:25px; height:25px;">
+            <div class="sizing-label">25 px</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Logo Misuse -->
+    <section class="section" id="logo-misuse" data-nav="logo-misuse" data-parent-nav="logo">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Logo Misuse</h2>
+        <div class="section-description">
+          <p>See below for incorrect usage of the logo.</p>
+        </div>
+      </div>
+      <div class="misuse-grid">
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-stretched.svg" alt="Stretched logo">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Don't stretch the logo</div>
+        </div>
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-rotated.svg" alt="Rotated logo">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Don't rotate the logo</div>
+        </div>
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-color.svg" alt="Wrong color monogram">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Do not change the color of the monogram alone</div>
+        </div>
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-outline.svg" alt="Outlined logo">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Do not outline the logo</div>
+        </div>
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-gradient.svg" alt="Gradient logo">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Do not add gradients the logo</div>
+        </div>
+        <div class="misuse-card">
+          <div class="misuse-image">
+            <img class="logo" src="assets/logo-misuse-wrong-color.svg" alt="Wrong color logo">
+            <div class="cross-overlay"><img src="assets/misuse-cross-line.svg" alt=""></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Don't alter color. Keep the monogram "O" in blue or white</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Monogram Usage -->
+    <section class="section" id="monogram-usage" data-nav="monogram-usage" data-parent-nav="logo">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Monogram Usage</h2>
+        <div class="section-description">
+          <p>Use the monogram when there are sizes restriction. When a small, square icon is required like for social profile picture, as a favicon, etc..</p>
+        </div>
+      </div>
+      <div class="monogram-usage-content">
+        <div class="monogram-large-wrapper">
+          <img class="monogram-large" src="assets/monogram-blue.svg" alt="Pixellot monogram large">
+        </div>
+        <div class="monogram-context">
+          <div class="monogram-context-header">
+            <div class="monogram-app-icon">
+              <img src="assets/monogram-blue.svg" alt="">
+            </div>
+            <img class="monogram-context-logo" src="assets/logo-on-black.svg" alt="Pixellot">
+          </div>
+          <div class="monogram-context-browser">
+            <div class="browser-tab-bar">
+              <div class="browser-tab">
+                <div class="browser-favicon"><img src="assets/monogram-blue.svg" alt=""></div>
+                <span>Pixellot.tv</span>
+                <span class="browser-tab-close">&times;</span>
+              </div>
+              <span class="browser-tab-plus">+</span>
+            </div>
+            <div class="browser-nav-bar">
+              <span class="browser-arrow">&larr;</span>
+              <span class="browser-arrow">&rarr;</span>
+              <span class="browser-refresh">&#8635;</span>
+              <div class="browser-url-bar">Pixellot.tv</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Monogram Download -->
+    <section class="section" id="monogram-download" data-nav="monogram-download" data-parent-nav="logo">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Monogram</h2>
+        <div class="section-description">
+          <p>Use only these monogram files.</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="assets/pixellot-monogram-kit.zip" download="pixellot-monogram-kit.zip">Download all</a>
+          </div>
+        </div>
+      </div>
+      <div class="monogram-grid">
+        <div class="monogram-card">
+          <img src="assets/monogram-blue.svg" alt="Blue monogram">
+          <div class="monogram-card-footer">
+            <span>Blue Monogram</span>
+            <div class="download-btn-wrap">
+              <button class="btn btn-black btn-download">Download <span class="arrow-down">&darr;</span><span class="arrow-up">&uarr;</span></button>
+              <div class="dropdown">
+                <a href="assets/downloads/monogram-blue.svg" download="pixellot-monogram-blue.svg"><strong>SVG</strong></a>
+                <a href="assets/downloads/monogram-blue.png" download="pixellot-monogram-blue.png">PNG</a>
+                <a href="assets/downloads/monogram-blue.jpg" download="pixellot-monogram-blue.jpg">JPG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="monogram-card">
+          <img src="assets/monogram-white.svg" alt="White monogram">
+          <div class="monogram-card-footer">
+            <span>White Monogram</span>
+            <div class="download-btn-wrap">
+              <button class="btn btn-black btn-download">Download <span class="arrow-down">&darr;</span><span class="arrow-up">&uarr;</span></button>
+              <div class="dropdown">
+                <a href="assets/downloads/monogram-white.svg" download="pixellot-monogram-white.svg"><strong>SVG</strong></a>
+                <a href="assets/downloads/monogram-white.png" download="pixellot-monogram-white.png">PNG</a>
+                <a href="assets/downloads/monogram-white.jpg" download="pixellot-monogram-white.jpg">JPG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="monogram-card">
+          <img src="assets/monogram-black.svg" alt="Black monogram">
+          <div class="monogram-card-footer">
+            <span>Black Monogram</span>
+            <div class="download-btn-wrap">
+              <button class="btn btn-black btn-download">Download <span class="arrow-down">&darr;</span><span class="arrow-up">&uarr;</span></button>
+              <div class="dropdown">
+                <a href="assets/downloads/monogram-black.svg" download="pixellot-monogram-black.svg"><strong>SVG</strong></a>
+                <a href="assets/downloads/monogram-black.png" download="pixellot-monogram-black.png">PNG</a>
+                <a href="assets/downloads/monogram-black.jpg" download="pixellot-monogram-black.jpg">JPG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Color Palette -->
+    <section class="section" id="color-palette" data-nav="color-palette" data-parent-nav="color">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Color Palette</h2>
+        <div class="section-description">
+          <p>These colors create a strong, dependable, and forward-thinking brand identity, ensuring that Pixellot is instantly recognised.</p>
+          <p>The main colors for the Pixellot logo are <strong>Navy Blue</strong> and <strong>White</strong> with the <strong>Pixellot blue</strong> for the monogram.</p>
+        </div>
+      </div>
+      <div class="color-palette-row">
+        <div class="color-swatch light-text" style="background: #02131D;">
+          <button class="btn-copy" onclick="copyHex('#02131D')">Copy HEX code</button>
+          <div class="color-swatch-info">
+            <span class="color-name">Navy Blue</span>
+            <span class="color-value">HEX #02131D</span>
+            <span class="color-value">R:2 G:19 B:29</span>
+            <span class="color-value">C:93 M:35 Y:0 K:89</span>
+          </div>
+        </div>
+        <div class="color-swatch dark-text" style="background: #00D6FE;">
+          <button class="btn-copy" onclick="copyHex('#00D6FE')">Copy HEX code</button>
+          <div class="color-swatch-info">
+            <span class="color-name">Pixellot Blue</span>
+            <span class="color-value">HEX #00D6FE</span>
+            <span class="color-value">R:0 G:214 B:256</span>
+            <span class="color-value">C:100 M:16 Y:0 K:0</span>
+          </div>
+        </div>
+        <div class="color-gap"></div>
+        <div class="color-swatch dark-text" style="background: #FFFFFF; border-right: 1px solid #eee;">
+          <button class="btn-copy" style="border: 0.5px solid black;" onclick="copyHex('#FFFFFF')">Copy HEX code</button>
+          <div class="color-swatch-info">
+            <span class="color-name">White</span>
+            <span class="color-value">HEX #FFFFFF</span>
+            <span class="color-value">R:255 G:255 B:255</span>
+            <span class="color-value">C:0 M:0 Y:0 K:0</span>
+          </div>
+        </div>
+        <div class="color-swatch dark-text" style="background: #F1EEEA;">
+          <button class="btn-copy" onclick="copyHex('#F1EEEA')">Copy HEX code</button>
+          <div class="color-swatch-info">
+            <span class="color-name">Grey</span>
+            <span class="color-value">HEX #F1EEEA</span>
+            <span class="color-value">R:241 G:238 B:234</span>
+            <span class="color-value">C:0 M:1 Y:3 K:5</span>
+          </div>
+        </div>
+        <div class="color-swatch dark-text" style="background: #8A5ED3;">
+          <button class="btn-copy" onclick="copyHex('#8A5ED3')">Copy HEX code</button>
+          <div class="color-swatch-info">
+            <span class="color-name">Purple</span>
+            <span class="color-value">HEX #8A5ED3</span>
+            <span class="color-value">R:138 G:94 B:211</span>
+            <span class="color-value">C:35 M:55 Y:0 K:17</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Color Pairing -->
+    <section class="section" id="color-pairing" data-nav="color-pairing" data-parent-nav="color">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Color Pairing</h2>
+        <div class="section-description">
+          <p>You can use all the colors as background, but avoid Purple background when we have a small text for accessibility issue.</p>
+          <p>You can use the Pixellot Blue or Purple to highlight some key words on the copy.</p>
+        </div>
+      </div>
+      <div class="color-pairing-grid">
+        <!-- Good examples -->
+        <div class="pairing-card" style="background: #02131D;">
+          <div class="tagline" style="color: white;">Where games<br><em style="color: #00D6FE;">become</em> stories</div>
+          <img class="logo-small" src="assets/color-pairing-logo-white.svg" alt="Pixellot">
+        </div>
+        <div class="pairing-card" style="background: #02131D;">
+          <div class="tagline" style="color: white;">Where games<br><em style="color: #8A5ED3;">become</em> stories</div>
+          <img class="logo-small" src="assets/color-pairing-logo-purple.svg" alt="Pixellot">
+        </div>
+        <div class="pairing-card" style="background: #00D6FE;">
+          <div class="tagline" style="color: black;">Where games<br><em>become</em> stories</div>
+          <img class="logo-small" src="assets/color-pairing-logo-cyan.svg" alt="Pixellot">
+        </div>
+        <!-- Bad examples -->
+        <div class="pairing-error-card">
+          <div class="pairing-card has-cross" style="background: #00D6FE;">
+            <div class="tagline"><span style="color: white;">Where games<br></span><em style="color: #8A5ED3;">become</em><span style="color: white;"> stories</span></div>
+            <img class="logo-small" src="assets/color-pairing-logo-cyan.svg" alt="Pixellot">
+            <div class="cross-line"><svg viewBox="0 0 475 220" preserveAspectRatio="none"><line x1="0" y1="220" x2="475" y2="0" stroke="#F20909" stroke-width="3"/></svg></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Avoid white and purple text on the blue background for accessibility issue</div>
+        </div>
+        <div class="pairing-error-card">
+          <div class="pairing-card has-cross" style="background: #8A5ED3;">
+            <div class="tagline" style="color: black;">Where games<br><em style="color: #00D6FE;">become</em> stories</div>
+            <img class="logo-small" src="assets/color-pairing-logo-grey.svg" alt="Pixellot">
+            <div class="cross-line"><svg viewBox="0 0 475 220" preserveAspectRatio="none"><line x1="0" y1="220" x2="475" y2="0" stroke="#F20909" stroke-width="3"/></svg></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Avoid blue and purple combination for accessibility issue</div>
+        </div>
+        <div class="pairing-error-card">
+          <div class="pairing-card has-cross" style="background: #F1EEEA;">
+            <div class="tagline" style="color: black;">Where games<br><em style="color: #00D6FE;">become</em> stories</div>
+            <img class="logo-small" src="assets/color-pairing-logo-grey.svg" alt="Pixellot">
+            <div class="cross-line"><svg viewBox="0 0 475 220" preserveAspectRatio="none"><line x1="0" y1="220" x2="475" y2="0" stroke="#F20909" stroke-width="3"/></svg></div>
+          </div>
+          <div class="misuse-label"><img class="error-icon" src="assets/icon-error.svg" alt="">Avoid blue text on top of the grey background for accessibility issue</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 11: Typography Font -->
+    <section class="section" id="typography-font" data-nav="typography-font" data-parent-nav="typography">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Typography</h2>
+        <div class="section-description">
+          <p>Red Hat Display is a geometric sans-serif typeface, designed to be distinctive yet adaptable, reinforcing technical expertise with personality through weights and a clean, open-source style, to create a clear, consistent, and modern visual brand identity, focusing on readability and ample white space in layouts.</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="assets/RedHatDisplay-Family.zip" download="RedHatDisplay-Family.zip">Download Font Family</a>
+          </div>
+        </div>
+      </div>
+      <div class="typography-columns">
+        <div class="typo-column">
+          <div class="typo-name" style="font-weight: 700;">Red Hat Display - Bold</div>
+          <div class="typo-alphabet" style="font-weight: 700;">A B C D E F G H I J K L M N O P R S T U W X Y Z a b c d e f g h i j k l m n o p r s t u w x y z</div>
+          <div class="typo-symbols" style="font-weight: 700;">!@#$%^&amp;*&rarr;&darr;&copy;&reg;&#8471;</div>
+          <div style="margin-top: 4px;"><a class="btn btn-black" href="assets/fonts/RedHatDisplay-Variable.ttf" download="RedHatDisplay-Bold.ttf">Download <strong>Bold</strong></a></div>
+          <div class="typo-large" style="font-weight: 700;">Ab</div>
+        </div>
+        <div class="typo-column">
+          <div class="typo-name" style="font-weight: 700; font-style: italic;">Red Hat Display - Bold Italic</div>
+          <div class="typo-alphabet" style="font-weight: 700; font-style: italic;">A B C D E F G H I J K L M N O P R S T U W X Y Z a b c d e f g h i j k l m n o p r s t u w x y z</div>
+          <div class="typo-symbols" style="font-weight: 700; font-style: italic;">!@#$%^&amp;*&rarr;&darr;&copy;&reg;&#8471;</div>
+          <div style="margin-top: 4px;"><a class="btn btn-black" href="assets/fonts/RedHatDisplay-Italic-Variable.ttf" download="RedHatDisplay-BoldItalic.ttf">Download <em><strong>Bold Italic</strong></em></a></div>
+          <div class="typo-large" style="font-weight: 700; font-style: italic;">Ab</div>
+        </div>
+        <div class="typo-column">
+          <div class="typo-name" style="font-weight: 400;">Red Hat Display - Regular</div>
+          <div class="typo-alphabet" style="font-weight: 400;">A B C D E F G H I J K L M N O P R S T U W X Y Z a b c d e f g h i j k l m n o p r s t u w x y z</div>
+          <div class="typo-symbols" style="font-weight: 400;">!@#$%^&amp;*&rarr;&darr;&copy;&reg;&#8471;</div>
+          <div style="margin-top: 4px;"><a class="btn btn-black" href="assets/fonts/RedHatDisplay-Variable.ttf" download="RedHatDisplay-Regular.ttf">Download Regular</a></div>
+          <div class="typo-large" style="font-weight: 400;">Ab</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 12: Typography Usage -->
+    <section class="section" id="typography-usage" data-nav="typography-usage" data-parent-nav="typography">
+      <div class="tag-pill">GUIDELINES</div>
+      <div class="section-header">
+        <h2 class="section-title">Typography usage</h2>
+      </div>
+      <div class="typo-usage-content">
+        <div class="typo-usage-row">
+          <div class="typo-usage-example">
+            <p class="typo-heading-bold">Use Bold for title</p>
+          </div>
+          <div class="typo-divider"></div>
+          <div class="typo-usage-specs">
+            <h4>Main headings</h4>
+            <ul>
+              <li>Red Hat Display Bold</li>
+              <li>Letter Spacing set to 0%</li>
+              <li>Line height should be 100-110%</li>
+              <li>Red Hat Display Bold Italic to highlight some words</li>
+            </ul>
+          </div>
+        </div>
+        <div class="typo-usage-row">
+          <div class="typo-usage-example">
+            <p class="typo-heading-italic"><span class="highlight">Italic</span> <span class="rest">to highlight key words</span></p>
+          </div>
+          <div class="typo-divider"></div>
+          <div class="typo-usage-specs">
+            <h4>Main headings</h4>
+            <ul>
+              <li>Red Hat Display Regular</li>
+              <li>Letter Spacing set to 0%</li>
+              <li>Line height should be 110%</li>
+            </ul>
+          </div>
+        </div>
+        <div class="typo-usage-row">
+          <div class="typo-usage-example">
+            <p class="typo-subheading">Lorem ipsum dolor sit amet consectetur. Maenean arcu aliquet.</p>
+          </div>
+          <div class="typo-divider"></div>
+          <div class="typo-usage-specs">
+            <h4>Sub headings</h4>
+            <ul>
+              <li>Red Hat Display Regular</li>
+              <li>Letter Spacing set to 0%</li>
+              <li>Line height should be 110%</li>
+            </ul>
+          </div>
+        </div>
+        <div class="typo-usage-row">
+          <div class="typo-usage-example">
+            <p class="typo-body">Lorem ipsum dolor sit amet consectetur. Facilisis pharetra nulla tortor tortor urna volutpat id dui. Vitae semper tincidunt vulputate amet placerat egestas mauris.</p>
+            <p class="typo-body" style="margin-top: 12px;">Stumst mi porttitor. Sem quis semper neque eleifend facilisi metus etiam a. Varius ut urna eget a fermentum et turpis. Ullamcorper egestas duis non volutpat commodo sit cursus vulputate.</p>
+          </div>
+          <div class="typo-divider"></div>
+          <div class="typo-usage-specs">
+            <h4>Body copy</h4>
+            <ul>
+              <li>Red Hat Display Regular</li>
+              <li>Letter space should be set to 0%</li>
+              <li>Line Height should be 125%</li>
+            </ul>
+          </div>
+        </div>
+        <div class="typo-usage-row">
+          <div class="typo-usage-example">
+            <p class="typo-pullout">LOREM IPSUM</p>
+          </div>
+          <div class="typo-divider"></div>
+          <div class="typo-usage-specs">
+            <h4 style="font-weight: 900; text-transform: uppercase; letter-spacing: 0.8px;">PULL OUTS</h4>
+            <ul>
+              <li>Red Hat Display Regular</li>
+              <li>Letter space should be set to 5%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 13: Photography -->
+    <section class="section" id="photography" data-nav="photography" data-parent-nav="photography">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Photography</h2>
+        <div class="section-description">
+          <p>Aim for authentic, real-world moments, so avoid heavy blurred or artificial backgrounds, overly polished shots, or "perfect" staged scenes. Capture true action, emotion, and interaction across practices, games, and sidelines. Include a natural mix of youth and genders to reflect the full range of players using Pixellot, and keep the style consistent with natural light, minimal editing, and clear context.</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="#">Download all pictures</a>
+          </div>
+        </div>
+      </div>
+      <div class="photo-grid">
+        <div class="photo-column">
+          <div class="photo-item tall">
+            <img src="assets/photo-basketball.jpg" alt="Basketball">
+            <a class="btn btn-black" href="assets/photo-basketball.jpg" download="pixellot-basketball.jpg">Download</a>
+          </div>
+        </div>
+        <div class="photo-column">
+          <div class="photo-item short">
+            <img src="assets/photo-football.jpg" alt="Football">
+            <a class="btn btn-black" href="assets/photo-football.jpg" download="pixellot-football.jpg">Download</a>
+          </div>
+          <div class="photo-item short">
+            <img src="assets/photo-football2.jpg" alt="Football">
+            <a class="btn btn-black" href="assets/photo-football2.jpg" download="pixellot-football-2.jpg">Download</a>
+          </div>
+        </div>
+        <div class="photo-column">
+          <div class="photo-item short">
+            <img src="assets/photo-baseball.jpg" alt="Baseball">
+            <a class="btn btn-black" href="assets/photo-baseball.jpg" download="pixellot-baseball.jpg">Download</a>
+          </div>
+          <div class="photo-item short">
+            <img src="assets/photo-soccer.jpg" alt="Soccer">
+            <a class="btn btn-black" href="assets/photo-soccer.jpg" download="pixellot-soccer.jpg">Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 14: Letterhead -->
+    <section class="section" id="letterhead" data-nav="letterhead" data-parent-nav="letterhead">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Letterhead</h2>
+        <div class="section-description">
+          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="#">Download Template</a>
+          </div>
+        </div>
+      </div>
+      <div class="letterhead-preview">
+        <div class="letterhead-header">
+          <img class="letterhead-logo" src="assets/letterhead-logo.svg" alt="Pixellot">
+          <div class="letterhead-info">
+            Pixellot.tv<br>
+            USA: 120 East 23rd Street, New York, NY<br>
+            Israel (HQ): Granit Street 11, Petah Tikva<br>
+            info@pixellot.tv
+          </div>
+        </div>
+        <div class="letterhead-body">
+          <p>Dear,</p>
+          <p>Lorem ipsum dolor sit amet consectetur. Dictum ultrices proin adipiscing donec iaculis cursus non neque. Ut vestibulum bibendum viverra platea viverra risus vitae ac pharetra. Eu nulla neque eu tempor facilisis pulvinar quis nam scelerisque. Amet pretium volutpat urna sagittis tellus. Risus mattis fames sit molestie lorem. Magna volutpat sed ornare ornare dolor pellentesque. Sit arcu eu sit imperdiet sed velit tempor arcu.</p>
+          <p>Dui tempus velit sed enim ornare faucibus. Faucibus dis tortor justo blandit tellus. Ac non euismod nunc in mi condimentum ut. Eu posuere nascetur suspendisse non nisi erat vel dui pellentesque. Diam est mi et eu ac. Sed odio fames ipsum diam euismod tristique condimentum quis neque. Habitant eget eget turpis eget at. Fermentum ultrices hendrerit adipiscing massa nibh et erat ut.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 15: Email Signature -->
+    <section class="section" id="email-signature" data-nav="email-signature" data-parent-nav="email-signature">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Email signature</h2>
+        <div class="section-description">
+          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="#">Download Template</a>
+          </div>
+        </div>
+      </div>
+      <div class="email-signature-card" id="sig-card">
+        <div class="sig-name" contenteditable="true" data-placeholder="Name Surname">Name Surname</div>
+        <div class="sig-title" contenteditable="true" data-placeholder="Job Title">Ceo &amp; Founder</div>
+        <div class="sig-contact">
+          <div class="sig-contact-item">
+            <img class="sig-icon" src="assets/email-phone-icon.svg" alt="Phone">
+            <span contenteditable="true" data-placeholder="+00 00 00 00">+00 00 00 00</span>
+          </div>
+          <div class="sig-contact-item">
+            <img class="sig-icon" src="assets/email-mail-icon.svg" alt="Email">
+            <span contenteditable="true" data-placeholder="email@pixellot.tv">Name@pixellot.tv</span>
+          </div>
+        </div>
+        <img class="sig-logo" src="assets/email-logo.svg" alt="Pixellot">
+      </div>
+      <div class="email-buttons">
+        <button class="btn btn-black" onclick="downloadSignature()">Download Template</button>
+        <button class="btn btn-black" onclick="copySignature()">Copy text to clipboard</button>
+      </div>
+    </section>
+
+    <!-- Section 16: Presentation -->
+    <section class="section" id="presentation" data-nav="presentation" data-parent-nav="presentation">
+      <div class="tag-pill">ASSETS <img class="download-icon-small" src="assets/icon-download-small.svg" alt=""></div>
+      <div class="section-header">
+        <h2 class="section-title">Presentation</h2>
+        <div class="section-description">
+          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <div style="margin-top: 22px;">
+            <a class="btn btn-black" href="https://docs.google.com/presentation/d/1BmLIDE7NAZ_KXvtiqZe3ec3yQWLh2SmV/edit?slide=id.g3b657afae13_0_767#slide=id.g3b657afae13_0_767" target="_blank">Download Template</a>
+          </div>
+        </div>
+      </div>
+      <div class="presentation-grid">
+        <img src="assets/presentation-slide1.png" alt="Presentation slide 1">
+        <img src="assets/presentation-slide2.png" alt="Presentation slide 2">
+        <img src="assets/presentation-slide3.png" alt="Presentation slide 3">
+        <img src="assets/presentation-slide4.png" alt="Presentation slide 4">
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // ===== Copy HEX code =====
+    function copyHex(hex) {
+      const btn = event.target.closest('.btn-copy') || event.target;
+      const orig = btn.textContent;
+
+      function onSuccess() {
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = orig, 1500);
+      }
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(hex).then(onSuccess);
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = hex;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        onSuccess();
+      }
+    }
+
+    // ===== Intersection Observer for active nav =====
+    const sections = document.querySelectorAll('.section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navSubLinks = document.querySelectorAll('.nav-sub-link');
+    const navSubItems = document.querySelectorAll('.nav-sub-items');
+
+    // Map sections to their parent nav groups
+    const sectionParentMap = {};
+    sections.forEach(s => {
+      const parentNav = s.dataset.parentNav;
+      const nav = s.dataset.nav;
+      if (parentNav) sectionParentMap[nav] = parentNav;
+    });
+
+    function setActiveSection(sectionId) {
+      const parentNav = sectionParentMap[sectionId];
+
+      // Update main nav links
+      navLinks.forEach(link => {
+        const linkSection = link.dataset.section;
+        link.classList.remove('active', 'semi-active');
+        if (linkSection === sectionId || linkSection === parentNav) {
+          link.classList.add('active');
+        } else if (sectionId === 'brand-intro' && linkSection === 'logo') {
+          link.classList.add('semi-active');
+        }
+      });
+
+      // Show/hide sub items
+      navSubItems.forEach(sub => {
+        const parent = sub.dataset.parent;
+        if (parent === parentNav || parent === sectionId) {
+          sub.classList.add('visible');
+        } else {
+          sub.classList.remove('visible');
+        }
+      });
+
+      // Update sub links
+      navSubLinks.forEach(link => {
+        if (link.dataset.section === sectionId) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.dataset.nav);
+        }
+      });
+    }, {
+      rootMargin: '-30% 0px -60% 0px',
+      threshold: 0
+    });
+
+    sections.forEach(section => observer.observe(section));
+
+    // ===== Smooth scroll on nav click =====
+    document.querySelectorAll('.nav-link, .nav-sub-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        if (href) {
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+
+    // ===== Email Signature =====
+    function getSignatureData() {
+      const card = document.getElementById('sig-card');
+      return {
+        name: card.querySelector('.sig-name').textContent.trim(),
+        title: card.querySelector('.sig-title').textContent.trim(),
+        phone: card.querySelector('.sig-contact-item:nth-child(1) span').textContent.trim(),
+        email: card.querySelector('.sig-contact-item:nth-child(2) span').textContent.trim(),
+      };
+    }
+
+    function copySignature() {
+      const d = getSignatureData();
+      const text = `${d.name}\n${d.title}\n${d.phone}\n${d.email}`;
+      const btn = event.target.closest('.btn');
+      const orig = btn.innerHTML;
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+          btn.innerHTML = 'Copied!';
+          setTimeout(() => btn.innerHTML = orig, 1500);
+        });
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        btn.innerHTML = 'Copied!';
+        setTimeout(() => btn.innerHTML = orig, 1500);
+      }
+    }
+
+    function downloadSignature() {
+      const d = getSignatureData();
+      const html = `<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body{font-family:'Red Hat Display',Arial,sans-serif;margin:0;padding:0;}
+table{border-collapse:collapse;}
+td{padding:0;vertical-align:top;}
+.name{font-size:18px;font-weight:700;color:#000;}
+.title{font-size:14px;color:#000;padding-top:2px;}
+.contact{font-size:13px;color:#000;padding-top:12px;}
+.logo{padding-top:8px;}
+</style></head><body>
+<table width="500" cellpadding="0" cellspacing="0">
+<tr><td>
+  <table cellpadding="0" cellspacing="0">
+    <tr><td class="name">${d.name}</td></tr>
+    <tr><td class="title">${d.title}</td></tr>
+    <tr><td class="contact">&#9742; ${d.phone}&nbsp;&nbsp;&nbsp;&nbsp;&#9993; ${d.email}</td></tr>
+  </table>
+</td>
+<td align="right" style="vertical-align:bottom;padding-left:40px;">
+  <img src="https://pixellot.tv/wp-content/uploads/2021/03/pixellot-logo.png" alt="Pixellot" height="20" style="height:20px;">
+</td></tr>
+</table>
+</body></html>`;
+
+      const blob = new Blob([html], { type: 'text/html' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'pixellot-email-signature.htm';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // ===== Download dropdowns =====
+    document.querySelectorAll('.btn-download').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const wrap = btn.closest('.download-btn-wrap');
+        document.querySelectorAll('.download-btn-wrap.open').forEach(w => { if (w !== wrap) w.classList.remove('open'); });
+        wrap.classList.toggle('open');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.download-btn-wrap')) {
+        document.querySelectorAll('.download-btn-wrap.open').forEach(w => w.classList.remove('open'));
+      }
+    });
+
+    // ===== Mobile sidebar toggle =====
+    function toggleSidebar() {
+      document.querySelector('.sidebar').classList.toggle('open');
+      document.querySelector('.sidebar-overlay').classList.toggle('visible');
+    }
+
+    // Close sidebar on mobile nav click
+    document.querySelectorAll('.nav-link, .nav-sub-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          toggleSidebar();
+        }
+      });
+    });
+
+    // Initial state
+    setActiveSection('brand-intro');
+  </script>
+
+</body>
+</html>
