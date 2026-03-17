@@ -11,6 +11,12 @@
 </head>
 <body>
 
+  <!-- ===== THEME TOGGLE ===== -->
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+    <span class="icon-moon">&#9789;</span>
+    <span class="icon-sun">&#9788;</span>
+  </button>
+
   <!-- ===== MOBILE MENU ===== -->
   <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle menu"><span></span></button>
   <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
@@ -18,7 +24,8 @@
   <!-- ===== SIDEBAR ===== -->
   <nav class="sidebar">
     <div class="sidebar-logo">
-      <img src="assets/logo-pixellot-black.svg" alt="Pixellot">
+      <img class="logo-light" src="assets/logo-pixellot-black.svg" alt="Pixellot">
+      <img class="logo-dark" src="assets/logo-pixellot-dark.svg" alt="Pixellot">
     </div>
     <div class="sidebar-nav">
       <ol>
@@ -128,7 +135,7 @@
       <div class="section-header">
         <h2 class="section-title">Logo</h2>
         <div class="section-description">
-          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <p>Download the official Pixellot logo in multiple formats. Use only these approved files for all communications and materials.</p>
           <div style="margin-top: 22px; display: flex; gap: 16px;">
             <a class="btn btn-black" href="assets/pixellot-logo-kit.zip" download="pixellot-logo-kit.zip">Download all</a>
           </div>
@@ -390,8 +397,8 @@
           </div>
         </div>
         <div class="color-gap"></div>
-        <div class="color-swatch dark-text" style="background: #FFFFFF; border-right: 1px solid #eee;">
-          <button class="btn-copy" style="border: 0.5px solid black;" onclick="copyHex('#FFFFFF')">Copy HEX code</button>
+        <div class="color-swatch dark-text" style="background: #FFFFFF;">
+          <button class="btn-copy" onclick="copyHex('#FFFFFF')">Copy HEX code</button>
           <div class="color-swatch-info">
             <span class="color-name">White</span>
             <span class="color-value">HEX #FFFFFF</span>
@@ -547,7 +554,7 @@
         </div>
         <div class="typo-usage-row">
           <div class="typo-usage-example">
-            <p class="typo-subheading">Lorem ipsum dolor sit amet consectetur. Maenean arcu aliquet.</p>
+            <p class="typo-subheading">Regular weight for subheadings and secondary titles.</p>
           </div>
           <div class="typo-divider"></div>
           <div class="typo-usage-specs">
@@ -561,8 +568,8 @@
         </div>
         <div class="typo-usage-row">
           <div class="typo-usage-example">
-            <p class="typo-body">Lorem ipsum dolor sit amet consectetur. Facilisis pharetra nulla tortor tortor urna volutpat id dui. Vitae semper tincidunt vulputate amet placerat egestas mauris.</p>
-            <p class="typo-body" style="margin-top: 12px;">Stumst mi porttitor. Sem quis semper neque eleifend facilisi metus etiam a. Varius ut urna eget a fermentum et turpis. Ullamcorper egestas duis non volutpat commodo sit cursus vulputate.</p>
+            <p class="typo-body">Body copy should be set in Red Hat Display Regular at a comfortable reading size. Keep paragraphs short and scannable for digital layouts.</p>
+            <p class="typo-body" style="margin-top: 12px;">Maintain generous line height and spacing between paragraphs to ensure readability across all screen sizes and devices.</p>
           </div>
           <div class="typo-divider"></div>
           <div class="typo-usage-specs">
@@ -638,15 +645,16 @@
       <div class="section-header">
         <h2 class="section-title">Letterhead</h2>
         <div class="section-description">
-          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <p>Official Pixellot letterhead template for formal correspondence. Download and customise with your details.</p>
           <div style="margin-top: 22px;">
-            <a class="btn btn-black" href="#">Download Template</a>
+            <a class="btn btn-black" href="assets/Pixellot-Letterhead.docx" download="Pixellot-Letterhead.docx">Download Template</a>
           </div>
         </div>
       </div>
       <div class="letterhead-preview">
         <div class="letterhead-header">
-          <img class="letterhead-logo" src="assets/letterhead-logo.svg" alt="Pixellot">
+          <img class="letterhead-logo logo-light" src="assets/letterhead-logo.svg" alt="Pixellot">
+          <img class="letterhead-logo logo-dark" src="assets/logo-pixellot-dark.svg" alt="Pixellot">
           <div class="letterhead-info">
             Pixellot.tv<br>
             USA: 120 East 23rd Street, New York, NY<br>
@@ -656,8 +664,8 @@
         </div>
         <div class="letterhead-body">
           <p>Dear,</p>
-          <p>Lorem ipsum dolor sit amet consectetur. Dictum ultrices proin adipiscing donec iaculis cursus non neque. Ut vestibulum bibendum viverra platea viverra risus vitae ac pharetra. Eu nulla neque eu tempor facilisis pulvinar quis nam scelerisque. Amet pretium volutpat urna sagittis tellus. Risus mattis fames sit molestie lorem. Magna volutpat sed ornare ornare dolor pellentesque. Sit arcu eu sit imperdiet sed velit tempor arcu.</p>
-          <p>Dui tempus velit sed enim ornare faucibus. Faucibus dis tortor justo blandit tellus. Ac non euismod nunc in mi condimentum ut. Eu posuere nascetur suspendisse non nisi erat vel dui pellentesque. Diam est mi et eu ac. Sed odio fames ipsum diam euismod tristique condimentum quis neque. Habitant eget eget turpis eget at. Fermentum ultrices hendrerit adipiscing massa nibh et erat ut.</p>
+          <p>This is a preview of the official Pixellot letterhead layout. The template includes the company logo, contact information, and proper spacing for professional correspondence.</p>
+          <p>Download the template to customise it with your own content. Maintain the logo placement, typography, and margins as shown to ensure brand consistency across all printed and digital documents.</p>
         </div>
       </div>
     </section>
@@ -668,7 +676,7 @@
       <div class="section-header">
         <h2 class="section-title">Email signature</h2>
         <div class="section-description">
-          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <p>Edit the fields below with your details, then download as an HTML file for Outlook or copy the text to your clipboard.</p>
           <div style="margin-top: 22px;">
             <a class="btn btn-black" href="#">Download Template</a>
           </div>
@@ -687,7 +695,8 @@
             <span contenteditable="true" data-placeholder="email@pixellot.tv">Name@pixellot.tv</span>
           </div>
         </div>
-        <img class="sig-logo" src="assets/email-logo.svg" alt="Pixellot">
+        <img class="sig-logo logo-light" src="assets/email-logo.svg" alt="Pixellot">
+        <img class="sig-logo logo-dark" src="assets/logo-pixellot-dark.svg" alt="Pixellot">
       </div>
       <div class="email-buttons">
         <button class="btn btn-black" onclick="downloadSignature()">Download Template</button>
@@ -701,7 +710,7 @@
       <div class="section-header">
         <h2 class="section-title">Presentation</h2>
         <div class="section-description">
-          <p>Lorem ipsum dolor sit amet. Use the template below...</p>
+          <p>Official Pixellot presentation template with branded slides. Download and use for company decks, pitches, and reports.</p>
           <div style="margin-top: 22px;">
             <a class="btn btn-black" href="https://docs.google.com/presentation/d/1BmLIDE7NAZ_KXvtiqZe3ec3yQWLh2SmV/edit?slide=id.g3b657afae13_0_767#slide=id.g3b657afae13_0_767" target="_blank">Download Template</a>
           </div>
@@ -718,6 +727,23 @@
   </main>
 
   <script>
+    // ===== Theme Toggle =====
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+
+    // Apply saved theme on load
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+
     // ===== Copy HEX code =====
     function copyHex(hex) {
       const btn = event.target.closest('.btn-copy') || event.target;

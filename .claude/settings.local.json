@@ -6,7 +6,13 @@
       "mcp__claude_ai_Figma__get_screenshot",
       "Bash(open:*)",
       "Bash(cd:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(which gh:*)",
+      "Bash(brew install:*)",
+      "Read(//opt/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(~/bin/gh auth:*)"
     ]
   }
 }
