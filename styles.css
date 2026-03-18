@@ -1023,7 +1023,6 @@ img {
 .letterhead-preview {
   margin-top: clamp(40px, 5vw, 80px);
   width: min(100%, 757px);
-  aspect-ratio: 757 / 1071;
   background: var(--card-bg);
   box-shadow: 0px 5px 79px -24px var(--card-shadow);
   padding: clamp(20px, 3vw, 41px) clamp(20px, 3vw, 46px);
