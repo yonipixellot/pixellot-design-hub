@@ -678,7 +678,7 @@
         <div class="section-description">
           <p>Edit the fields below with your details, then download as an HTML file for Outlook or copy the text to your clipboard.</p>
           <div style="margin-top: 22px;">
-            <button class="btn btn-black" onclick="downloadSignature()">Download Template</button>
+            <button class="btn btn-black" onclick="copySignatureHTML()">Copy Template</button>
           </div>
         </div>
       </div>
@@ -901,22 +901,6 @@
 <td align="right" style="vertical-align:bottom;padding:0 0 0 40px;">
   <img src="https://yonipixellot.github.io/pixellot-design-hub/assets/logo-black.png" alt="Pixellot" width="128" height="20" style="width:128px;height:20px;">
 </td></tr></table>`;
-    }
-
-    function downloadSignature() {
-      const html = `<!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>Pixellot Email Signature</title></head>
-<body style="margin:0;padding:0;">
-${buildSignatureHTML()}
-</body></html>`;
-      const url = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'pixellot-email-signature.htm';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
 
     function copySignatureHTML() {
