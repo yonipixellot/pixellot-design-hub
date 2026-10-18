@@ -1097,6 +1097,14 @@ img {
 .sig-contact-item .sig-icon { width: 24px; height: 24px; }
 .sig-contact-item span { font-size: clamp(14px, 1vw, 18.6px); line-height: 1.25; }
 
+.email-signature-card .sig-address {
+  margin-top: 8px;
+  margin-bottom: clamp(28px, 2.2vw, 40px);
+  font-size: clamp(12px, 0.85vw, 15px);
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
 .email-signature-card .sig-logo {
   position: absolute;
   bottom: clamp(20px, 2vw, 33px);
